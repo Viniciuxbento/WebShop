@@ -1,0 +1,125 @@
+body,html{
+    background-color: #fffaff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    
+}
+
+#container-header{
+    background-color: #ccb598;
+    box-shadow: 1px 1px 2px #80808094 ;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.botao-login{
+
+ color: black;
+}
+
+.container-menu-lateral{
+    display: none;
+
+}
+.container-article{
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.container-ul{
+    background-color: #e5e5e57c;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 2px 2px 6px #80808094;
+
+}
+.container-produto{
+    background-color: #e5e5e5b0;
+    box-shadow: 1px 1px 2px #e5e5e5;
+    border: 1px solid #e5e5e5;
+
+    text-align: center;
+    
+    width: 210px;
+    margin: 10px;
+    
+
+    
+    
+
+    
+}
+.valor-produto{
+    background-color: #76604c;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
+
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: center;
+    
+    width: 100px;
+    padding: 5px;
+    margin-left:25%;
+}
+
+.imagem-do-produto{
+    width: 200px;
+    height: 230px;
+
+    border: 2px solid #808080;
+    border-radius: 2px;
+}
+.descricao-nome-produto{
+    border:2px solid #808080 ;
+    
+}
+
+.botao-comprar-produto{
+    background-color: #3ec9a7;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
+
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: center;
+    
+    width: 100px;
+    padding: 5px;
+    margin-left:25%;
+}
+
+.botao-add-carrinho{
+    background-color: #98d9b6;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
+
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: center;
+    
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    margin-left:25%;
+    
+}
+
+
+
