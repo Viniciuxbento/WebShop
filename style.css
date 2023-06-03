@@ -1,40 +1,84 @@
-body,html{
+body,
+html {
     background-color: #fffaff;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;
+}
 
-ul{
+ul {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
+
+}
+
+ul:has(li:hover) li:not(:hover){
+    opacity: 0.9;
     
 }
 
-#container-header{
+#container-header {
     background-color: #ccb598;
-    box-shadow: 1px 1px 2px #80808094 ;
+    box-shadow: 1px 1px 2px #80808094;
 
     display: flex;
     justify-content: space-between;
     padding: 10px;
+
+}
+
+.botao-login {
+    padding: 10px;
+    color: black;
+    font-size: large;
+}
+
+#carrinho-icon {
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: black; 
+    position: relative;
+    top: 0.4rem;
+
+
     
-}
-.botao-login{
+    
 
- color: black;
-}
 
-.container-menu-lateral{
-    display: none;
 
 }
-.container-article{
-    padding-left: 250px;
+
+.container-logcar {
+    position: relative;
+    top: 1.5rem;
+}
+
+
+.container-menu-lateral {
+   float: left;
+   width: 200px;
+   height: 100vh;
+   background-color: #e5e5e5;
+   border: 1px solid #cbb59a;
+   border-radius: 3px;
+
+}
+
+.menu-lateral-items{
+    margin-bottom: 30px;
+}
+
+.container-article {
+    padding-left: 0px;
     padding-top: 20px;
 }
-.container-ul{
+
+.container-ul {
     background-color: #e5e5e57c;
     display: flex;
     flex-direction: row;
@@ -43,83 +87,124 @@ a{
     box-shadow: 2px 2px 6px #80808094;
 
 }
-.container-produto{
+
+.container-produto {
     background-color: #e5e5e5b0;
     box-shadow: 1px 1px 2px #e5e5e5;
     border: 1px solid #e5e5e5;
 
     text-align: center;
-    
+
     width: 210px;
     margin: 10px;
-    
 
-    
-    
 
-    
+
+
+
+
 }
-.valor-produto{
+
+.valor-produto {
     background-color: #76604c;
     color: white;
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
 
-    
+
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
     text-align: center;
-    
+
     width: 100px;
     padding: 5px;
-    margin-left:25%;
+    margin-left: 25%;
 }
 
-.imagem-do-produto{
+.imagem-do-produto {
     width: 200px;
     height: 230px;
 
     border: 2px solid #808080;
     border-radius: 2px;
 }
-.descricao-nome-produto{
-    border:2px solid #808080 ;
-    
+
+.descricao-nome-produto {
+    border: 2px solid #808080;
+
 }
 
-.botao-comprar-produto{
+.botao-comprar-produto {
     background-color: #3ec9a7;
     color: black;
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
 
-    
+
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
     text-align: center;
-    
+
     width: 100px;
     padding: 5px;
-    margin-left:25%;
+    margin-left: 25%;
+}
+.botao-comprar-produto:hover{
+    scale: 1.05;
 }
 
-.botao-add-carrinho{
+.botao-add-carrinho {
     background-color: #98d9b6;
     color: white;
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
 
-    
+
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
     text-align: center;
-    
+
     width: 100px;
     height: 20px;
     padding: 5px;
-    margin-left:25%;
+    margin-left: 25%;
+
+}
+.botao-add-carrinho:hover{
+    scale: 1.05;
+}
+
+#container-pesquisa {
+
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 240px;
+    height: 32px;
+
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+#barra-pesquisa {
+
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 15px;
+    border: none;
+    height: 32px;
+    width: 200px;
     
 }
 
-
+.lupa-pesquisa{
+    position: absolute;
+    bottom: 0.05rem;
+    right: 0.5rem;
+}
 
